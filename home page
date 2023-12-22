@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Design</title>
+   <link rel="stylesheet" href="../assignment/assignment3-website.css">
+</head>
+<body>
+    <style>
+     *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(195, 195, 195);
+    overflow-x: hidden;
+}
+.template{
+    width:1000px;
+    margin: 0 auto;
+}
+.header-section{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.logo img{
+    height: 50px;
+    padding-left:10px;
+    padding-top: 4px;
+}
+.menu{
+    height: 100%;
+    float: center;
+    margin-left: 190px;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    line-height: 50px;
+    padding:5px;
+}
+.menu ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.social-icon{
+    height:100%;
+    float: left;
+}
+.social-icon i{
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    line-height: 60px;
+}
+/* Header Section CSS End Here */
+.banner-section{
+   
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    color: rgb(0, 0, 0);
+}
+.banner-content{
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.banner-content h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+}
+.banner-content h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-left: 240px;
+   
+}
+.banner-content p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-left: 240px;
+    
+}
+#red{
+    background-color: rgb(255, 49, 49);
+    padding:7px 20px;
+    border:1px solid red;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: 190px;
+}
+#blue{
+    background-color: rgb(255, 255, 255);
+    padding:7px 20px;
+    border:1px solid rgb(49,97, 255);
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(49,97,255);
+    text-align: center;
+ 
+}
+
+#red:hover{
+    background-color: rgb(0, 0, 255);
+}
+#blue:hover{
+    background-color: red;
+}
+/* Banner Section CSS End Here */
+
+.about-section{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding: 50px 0px;
+}
+.about-left{
+    width: 40%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+.about-left h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: crimson;
+}
+.about-left p{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.about-left button{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.about-right{
+    width: 40%;
+    float: left;
+}
+.about-right img{
+    height: 300px;
+    width: 400px;
+}
+/* About Section CSS End Here */
+
+.slogan-section{
+    height: 250px;
+    width: 100%;
+    padding: 50px 0px;
+    background: gray;
+}
+.slogan-section h3{
+    text-align: center;
+    padding-top: 70px;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+}
+.slogan-section h3 q{}
+.slogan-section h5{
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+}
+/* Slogan Section CSS END Here */
+.web-section{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0px;
+
+}
+.web-item-all{}
+.web-item{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+}
+.web-item img{
+    width: 93%;
+    height: 200px;
+}
+.web-item h3{
+    padding: 15px 0px; 
+}
+.web-item p{
+    padding-bottom: 15px;
+}
+.web-item button{
+    padding: 7px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+}   
+    </style>
+    <script>
+        alert("welcome to website.")
+    </script> 
+    <div class="template">
+        <div class="header-section">
+            <div class="logo">
+                <img src="../assests/images/logo.png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="contactUs.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <!-- Header End -->
+        <div class="banner-section">
+            <div class="banner-content">
+                <h2 text-align="center">IMPROVES SALES.GROW YOUR BUSINESS.</h2>
+                <h3 text-align="center">FASTER GROWTH.</h3>
+                <p>1 Month Free Trial. No Credit Card Required.</p>
+                <div class="button">
+                <a id="red">SIGN UP FOR FREE</a>
+                <a id="blue">SEE PLANS AND PRICING</a>
+            </div>
+            </div>
+        </div>
+        <!-- Banner Section End -->
+
+        <div class="about-section">
+            <div class="about-left">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem,  amet consequuntur corrupti et voluptatibus distinctio sapiente nemo natus dicta molestiae, aliquid recusandae. Sed, accusantium quas. Iure sed soluta id?</p>
+                <p>Cumque autem eos illum magnam corrupti dolorem ducimus libero mollitia nam. Nihil architecto enim ipsum facilis, id ea repellat voluptatem minima quidem fuga accusamus labore odio quos cumque excepturi libero.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="about-right">
+                <img src="../assests/images/Interaction Design-amico.png">
+            </div>
+        </div>
+        <!-- About Section END -->
+        <div class="slogan-section">
+            <h3>
+                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus delectus distinctio quae laudantium voluptate non vel iste, placeat assumenda sit!</q>
+            </h3>
+            <h5>Bill Gates</h5>
+        </div>
+        <!-- Slogan Section End -->
+        <div class="web-section">
+            <div class="web-item-all">
+                <div class="web-item">
+                    <img src="../assests/images/Interaction Design-rafiki.png">
+                    <h3>Small scale business</h3>
+                    <p>Get paid on time,track expenses,automate task and make informed financial decisions.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="web-item">
+                    <img src="../assests/images/UI-UX design-bro.png">
+                    <h3>Mid market business </h3>
+                    <p>Go global! use multi-currency feature,advanced integrations,analytics and customization.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="web-item">
+                    <img src="../assests/images/UI-UX design-cuate.png">
+                    <h3>For student</h3>
+                    <p>Developed exclusively for students to experiment and self-learn cloud accounting. </p>
+                    <button>Learn More</button>
+                        
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <P style="height: 100px;
+    width:1000px;
+    background-color:gray;
+    padding: 50px 50px;
+    width:71.3%;
+    margin-left:132px;
+    color:ivory;
+    font-size:20px">
+    Harsh TECH is an innovative Mobile App and Software Development company that provides a full 
+    range of customized software development services for brands and businesses around the world. 
+    With some of the brightest minds and most talented individuals in the industry,
+     we are committed to delivering outstanding results for all our clients – 
+    utilizing technology, innovation, creativity, and the most effective digital marketing techniques.</P>
+    <h4 align="center">copright claim ©</h4>
+    <h5 align="center">Conditions of Use & Sale.
+    Privacy Notice.
+    Interest-Based Ads.
+    © 1996-2023, Harsh TECH PVT LTD, Inc. or its affiliates
+    </h5>
+     
+    <marquee direction="left" style="font-size:25px;border:2px solid;color:white;background-color:black;height:27px">
+        SERVICE UPDATES:
+        Please do not transfer money to payment links that are not shared from Harsh TECH PVT LTD's official accounts.
+        Harsh TECH PVT LTD does not require OTP or credentials for address confirmation for your work.
+        Our Customer Support team is reachable only from our website or app.
+        Login with your phone number and raise your support request with us.
+    </marquee>
+</body>
+</html>
